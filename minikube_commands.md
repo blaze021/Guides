@@ -1,4 +1,3 @@
-```
 Here's a **plethora of Minikube customization commands**, organized by purpose — everything from setting CPUs, memory, drivers, runtimes, networking, mounts, to even experimenting with Kubernetes features.
 
 ---
@@ -192,5 +191,3 @@ minikube image load myapp:latest
 If you're doing this frequently, consider aliases or wrapping these commands into a shell script for your specific environment.
 
 Want help creating a reusable script for this setup?
-
-```
