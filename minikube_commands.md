@@ -191,3 +191,8 @@ minikube image load myapp:latest
 If you're doing this frequently, consider aliases or wrapping these commands into a shell script for your specific environment.
 
 Want help creating a reusable script for this setup?
+
+
+```
+kubectl proxy --address='0.0.0.0' --accept-hosts='^.*$' &
+```
